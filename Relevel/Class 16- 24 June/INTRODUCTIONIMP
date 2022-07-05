@@ -1,0 +1,58 @@
+// IMPORTANT CLASSS!!!!!!!!!!!!!!!!!!!!!!
+
+// var ard=6;     window.ard ----- shows 5
+
+// var password=null;
+// password=3;  --- window.password -- shows thats why --- NOTT recommended
+
+
+// let arp="Yo"    window.arp - not workssssssssss
+
+
+// #function statement
+// function blah(){
+
+// }
+
+// var1(); ---------- GIves errrorrrrrrr...
+// #function expression
+// let var1= function funcexp(){
+
+// }
+
+// var1(); --- works Fine
+
+// Variable outside function doesnt work inside variable works for function;
+
+// let temp=5;
+// function var(){
+//     let temp=1;
+//     let temp2 =4
+//     console.log(temp,temp2); ---- 14
+// }
+// console.log(temp); ---- 5
+// console.log(temp2); ---- Doesnt work
+
+
+// ### global scope is outside { local scope } ##
+
+// //anonymous function let anm=function (){
+
+// // }
+
+// (function (){
+
+// })(); -------------------- anm function will work with ( ) only
+
+
+// //Difference Between arguments and Expression
+
+// const var=(n1,n2) => {
+//     return n1+n2;
+// }
+// console.log(3,4)
+
+// (function (n1,n2){
+//     return n1+n2;
+
+// })(3,5);
