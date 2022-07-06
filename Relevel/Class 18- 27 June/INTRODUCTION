@@ -1,2 +1,7 @@
 Data STRUCTURES-ARRAYS AND OBJECTS PART2!!
 
+##Object - Properties
+
+Object.freeze(obj) //No one can change values nor the keys !!!!
+
+Object.seal(obj)// No one can add or change key but can change values
