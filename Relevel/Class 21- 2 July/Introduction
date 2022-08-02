@@ -1,0 +1,12 @@
+PROBLEM SOLVING ARRAY.....
+
+bigO notations..
+
+Time Complexity -
+Many for loops slows down the program
+
+Best Case - Omega(1)  return (n*(n+1))/2 ----- Arithematic progression
+Worst case- BigO(1)          ------------- TO LEARN and Solve BY USING MATHEMATICS AND LOGIC
+Avg Case - Theta notation
+
+Best case is O(1); in Arithematic formula instead of for loop

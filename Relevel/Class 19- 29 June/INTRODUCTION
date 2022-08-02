@@ -1,0 +1,12 @@
+PROBLEM SOLVING SESSION!!
+
+
+Recurrsion is Calling same function inside a function again n again until wanted.
+
+let arr=[11,2,4];
+
+console.log(Array.sort(arr)); // will not sort it just return character sorted
+
+var rrr=[23,233,45,654];
+let ddd=rrr.filer((element)=>element>67);
+console.log(ddd); /// shows number greater than 67

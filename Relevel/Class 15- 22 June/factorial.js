@@ -4,6 +4,15 @@ function factorial(Num){
         fac=i*fac;
     }
     console.log(fac);
+
+    // let count=0;
+    // while(fac>0){
+
+    //     if(fac%10!=0){
+    //         break;
+    //     }
+    //     else
+    // }
 }
 
-factorial(3)
+factorial(5)

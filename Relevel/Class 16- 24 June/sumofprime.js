@@ -8,7 +8,11 @@ function isprime(N){
     return true;
 }
 
+function sump(N){
+    
+    
 
+}
 
 
 

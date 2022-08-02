@@ -1,6 +1,6 @@
 function isPrime(N){
 
-    if(N===1) return false;
+    if(N===1) return true;
 
     
 
@@ -12,18 +12,22 @@ function isPrime(N){
 }   
 
 
-function PairPrimes(N){
-    for(let a=2;a<N;a++){
-        let b = N-a;
-        if(isPrime(b)&& isPrime(a)){
-            return [a, b];
-        }
 
-    }
+// function PairPrimes(N){
+//     for(let a=2;a<N;a++){
+//         let b = N-a;
+//         if(isPrime(b)&& isPrime(a)){
+//             return [a, b];
+//         }
 
-    return "no Output";
-}
+//     }
 
-console.log (PairPrimes(15));
-console.log (PairPrimes(4));
-console.log (PairPrimes(17));
+//     return "no Output";
+// }
+
+
+// console.log(PairPrimes(15));
+// console.log(PairPrimes(4));
+// console.log(PairPrimes(17));
+
+console.log(isPrime(227))
