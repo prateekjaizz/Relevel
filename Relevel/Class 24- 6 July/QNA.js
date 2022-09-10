@@ -1,0 +1,2 @@
+// diagonal matrix or not 
+

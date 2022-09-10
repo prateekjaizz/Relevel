@@ -1,0 +1,32 @@
+// 2D Arrays - Part 1
+
+// let twoa=[
+//     ["qqq",13],
+//     ["56", rw],
+//     ["43",23]
+// ]
+
+// for(let i=0;i<twoa.length;i++){
+//     for(let j=0;j<twoa[i];j++){
+//         console.log(twoa[i][j])
+//     }
+// }
+
+// 1 - Logic for  Spiral Matrix slide number 12 -code
+// 2 - Explode Bomb Question Program --logic 
+// 3 - Understand question for rotation by 90 degree (slide number 15) --logic
+// 4 - Transpose Matrix (Interchange the index) (slide  17)  --code
+
+// https://drive.google.com/drive/folders/1-WD6Tqw4ro-4BOlTCsBARsda-ftYNuCB?usp=sharing
+
+//(i*c + j)* B
+
+//multiply neighbour
+
+let ar=[1,2,3,4,5]
+
+for(let i=0;i<ar.length;i++){
+        if(i>0){
+        console.log(ar[i]*ar[i-1])
+        }
+}

@@ -1,0 +1,22 @@
+// int arrayname[5]={11,34,67,87,97,67,98,23}...
+
+// cout<<arrayname[1];   // output - index value...  87
+
+// for(int i=0;i<arrayname.length;i++){  // i++  0,1,2,3,4  
+//     cout<<arrayname[i];   
+// }
+
+// int i=0;
+// while(i<arrayname.length){
+//     cout<<arrayname[i];
+//     i++;
+// }
+
+// Question-1  
+
+// array -> 6, { 45, 61, 74, 90,78,23}  Convert every element into its double which comes 
+// at even index... 0,2,4 
+ 
+for()
+
+
