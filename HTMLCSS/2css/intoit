@@ -1,0 +1,108 @@
+4.//////////////
+inspect element
+
+html and styles
+
+hex to rgb convert 
+
+box model
+
+margin outside the border spaces
+border
+padding helps to space the text inside the border
+
+vertical-align : top  // as alignment 
+
+5./////////////////////
+text.html
+
+
+6./////// structure of html
+basics / structure.html
+
+7.//// images and textboxes
+youtube.html
+
+<img src="bg.jpg"/> <textbox>
+
+</textbox>
+
+
+8. // css display property
+
+//block element  whole line <p></p>
+//inline-block element space needed only <img> <input>
+//inline element bold strong  within line
+
+9. // div element
+// div is a box / container / block element by default
+// if text is bigger in one just vertical-align it 
+
+
+10. // Nested Layout technique
+// vertical layout and horizontal layout 
+// most important ..
+break designs into verticals and horizontals
+
+
+11. // CSS grid
+div and inline block creates problems with space 
+also grid solves that .. 
+grid.html
+display: grid
+grid-template-columns: 100px ; // 1 column 
+grid-template-columns: 100px 200px ; // 2 column 
+grid-template-columns: 100px 1fr ; // 2 column with second block
+grid-template-columns: 1fr 1fr ; // 2 column with equal whole block
+2fr means twice 1 fr from another fr
+
+dynamic grid is not possible 
+
+rigid layout
+
+12.// Flexbox
+flexbox.html
+
+flex: 1 is 1 fr 
+flex: 2 is 2 fr 
+display: flex 
+flex-direction : row // row wise 
+
+column me align items aur justify-content ulta ho jata h obviously 
+
+flexible layout 
+
+13.//nested flexbox 
+
+flexbox.html
+maza aagya
+aur youtube ka header 
+
+14.// css position
+position.html
+
+sidebar also 
+
+15.// position absolute and relative
+
+fixed on window
+absolute on page
+
+absolute inside fixed  is fixed  // nothing much here but down is important 
+
+absolute inside relative  for time of video to movie with video preview
+
+absolute without relative just roams here and there 
+
+z-index for top layer settings
+
+16. // finishing
+
+sidebar
+and tooltips 
+
+17. // More CSS features
+
+dynamic video shows
+
+

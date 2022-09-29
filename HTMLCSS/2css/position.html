@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>position</title>
+</head>
+<body style="height:3000px; padding-top: 30px; padding-left: 80px;">
+  <div class="header" style="
+  /* fixed fixes at one point  and not takes whole block*/
+  position: fixed;
+  background-color:black;
+  /* how close to top + size setting  */
+  top:0;
+  left: 50px;
+  right: 50px;
+  height: 50px;
+  color:white;
+  /* z-index is showing above all   */
+  z-index: 1;">header</div>
+
+  <div style="background-color:green;
+  color: white;
+  position: fixed;
+  left:0;
+  top:50px;
+  bottom: 0;
+  width: 72px">
+    sidebar
+    <div style="position: absolute;
+    background-color: red;
+    color: white;">
+      absolute
+    </div>
+  </div>
+
+
+
+  <div style="position: absolute;
+  background-color: red;
+  color: white;">
+    absolute
+  </div>
+
+
+  <div style="
+  /* relative helps absolute to come inside it  */
+  position: relative;
+  background-color: antiquewhite;
+  height: 200px;
+  width: 200px;">
+    div 1
+    <div style="position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 5px;
+    right: 5px;">
+    
+      absolute
+    </div>
+  
+  </div>
+
+
+
+
+  <div style="
+  /* overflow-x: hidden;
+  overflow-y: scroll; */
+  background-color:brown;
+  height: 200px;
+  width: 200px;">
+    div 2</div>
+
+
+
+    
+
+</body>
+</html>

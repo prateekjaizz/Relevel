@@ -1,0 +1,103 @@
+<!-- 2 css property and values -->
+<!-- cursor changes when on button -->
+<style>
+  /* button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+  } */
+
+  .subscribe {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    /* transition */
+    transition: opacity 1s;
+  }
+
+  .join{
+    background-color: white;
+    color: blueviolet;
+    border-color: rgb(18, 3, 221);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    /* margin-right: 8px; */
+    transition: background-color 1s,color 1s;
+  }
+
+  .tweet{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: rgb(18, 3, 221);
+    border: none;
+    border-radius: 18px;
+    height: 36px;
+    width: 70px;
+    color: white;
+    background-color: blueviolet;
+    /* transition: opacity 1s; */
+    transition: box-shadow 0.15s;
+    
+  }
+
+  /* 3 hovers transition and shadows  */
+  /* hover */
+  .subscribe:hover {
+    opacity: 0.8;
+    
+  }
+  /* click */
+  .subscribe:active {
+    opacity: 0.5;
+    
+  }
+
+  .join:hover{
+    /* transition in hover do not apply on hover out it quicks */
+    color: white;
+    background-color: blueviolet;
+  }
+
+  .join:active{
+    opacity: 0.7;
+  }
+
+  .tweet:hover{
+      /* shadow: right top blur color */
+      box-shadow:3px 3px 10px rgba(0,0,0,0.5);
+  }
+
+</style>
+
+
+
+<!-- subscribe button -->
+<button class="subscribe">
+  SUBSCRIBE
+</button>
+
+<button class="join">
+  JOIN
+</button>
+
+<button class="tweet">
+ Tweet
+</button>
+
+
+
+

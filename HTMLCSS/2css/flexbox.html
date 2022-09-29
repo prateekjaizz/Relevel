@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flex{
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+</head>
+<body style="padding-bottom: 1000px ;">
+  <div class="flex">
+  <div style="background-color:bisque;">Div  text</div>
+  <div style="background-color:blueviolet;">Div 2 <p>text </p></div>
+</div>
+
+<div style="  display: flex;
+flex-direction: row;
+margin-top: 30px;">
+  <div style="background-color:bisque; width: 100px;">100px</div>
+  <div style="background-color:blueviolet; flex: 1;">flex 1</div>
+</div>
+
+<div style="  display: flex;
+flex-direction: row;
+margin-top: 30px;">
+  <div style="background-color:blueviolet; flex: 1;">flex 1</div>
+  <div style="background-color:bisque; width: 100px;">100px</div>
+
+  <div style="background-color:blue; flex: 2;">flex 2</div>
+</div>
+
+<div style="  display: flex;
+flex-direction: row;
+margin-top: 30px;">
+  
+  <div style="background-color:bisque; width: 100px;">100px</div>
+  <div style="background-color:blueviolet; flex: 1;">flex 1</div>
+  <div style="background-color:blue; flex: 2;">flex 2</div>
+</div>
+
+<!-- header using flexbox -->
+<div style="  display: flex;
+flex-direction: row;
+margin-top: 30px;
+height: 70px;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+justify-content: start;
+">
+  
+  <div style="background-color:bisque; width: 100px;">100px</div>
+  <div style="background-color:blueviolet; flex: 1;">flex 1</div>
+  <div style="background-color:blue; flex: 2;">flex 2</div>
+</div>
+
+<div style="  display: flex;
+flex-direction: row;
+margin-top: 30px;
+height: 70px;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+/* start starting of block centre and end */
+justify-content: start;
+">
+  
+  <div style="background-color:bisque; width: 100px;">100px</div>
+  <div style="background-color:blueviolet; width: 100px;">flex 1</div>
+  <div style="background-color:blue; width: 100px;">flex 2</div>
+</div>
+
+<div style="  display: flex;
+flex-direction: row;
+margin-top: 30px;
+height: 70px;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+/*space betweem EACH  element*/
+justify-content: space-between;
+">
+  
+  <div style="background-color:bisque; width: 100px;">100px</div>
+  <div style="background-color:blueviolet; width: 100px;">flex 1</div>
+  <div style="background-color:blue; width: 100px;">flex 2</div>
+</div>
+
+<div style="  display: flex;
+flex-direction: row;
+margin-top: 30px;
+height: 70px;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+/*centre and start of top middle */
+justify-content: space-between;
+align-items: end;
+">
+  
+  <div style="background-color:bisque; width: 100px;">100px</div>
+  <div style="background-color:blueviolet; width: 100px;">flex 1</div>
+  <div style="background-color:blue; width: 100px;">flex 2</div>
+</div>
+</body>
+</html>

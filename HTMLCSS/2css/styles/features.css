@@ -1,0 +1,46 @@
+/* my doubt cleared of dynamic columns */
+
+@media (max-width:750px){
+  .whole{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (min-width:1000px){
+  .whole{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+@media (min-width:751px)and(max-width:999px){
+  .whole{
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+
+/* shortcuts */
+  /* padding: 4px - all */
+ /* padding: 4px 10px - ver hori */
+ /* padding: 4px 10px 15px 20px - top right bottom left  */
+ /* margin same shorctcut  */
+ /* border: 1px solid gray  -- width style color */
+
+
+/* Inheritence */
+/* all inside whole will be underlined by text-decoration: underline */
+/* text properties go through inheritance  */
+/* text decoration in body helps alot in inheritence */
+/* but spicifics rule so specifity rules and by selectors  */
+/* default and over write */
+
+/* Semantic Elements read by robots read by engines and helpful  */
+/* <header> 
+<nav>
+<main>
+<section> 
+
+/* for search engines and screen readers */
+
+
